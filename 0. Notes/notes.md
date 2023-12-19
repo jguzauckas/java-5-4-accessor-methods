@@ -1,6 +1,6 @@
 # Accessor Methods
 
-In Unit 5 Section 1, we discussed how both class and instance variables are almost always kept `private` to maintain the security of the values. We also mentioned that we can offer a user access to the information by way of **accessor methods** despite the `private` nature of variables. This section dives into what accessor methods are do.
+In Unit 5 Section 1, we discussed how both class and instance variables are almost always kept `private` to maintain the security of the values. We also mentioned that we can offer a user access to the information by way of **accessor methods** despite the `private` nature of variables. This section dives into what accessor methods are and do.
 
 ---
 
