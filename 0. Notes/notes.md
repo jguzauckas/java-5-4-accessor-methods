@@ -40,6 +40,23 @@ public int getAge() {
 
 Accessor methods are really simple to write, as all they do is `return` the value of the variable in question, so that someone can access the information externally. Notice that these two accessor methods follow all the pieces described above: they are `public`, have the `return` types `String` and `int` respectively, have a name of the form `getVariableName`, and have empty parentheses. Because they have `return` types that are not `void`, they should have the keyword `return` used at some point to send information back, which we see in the form of `return name` and `return age` respectively.
 
+These can now be called whenever you have a `Person` object. Here is what that could look like with an example from the `NotesAccessor1.java` file:
+
+```java
+Person person1 = new Person("Mr. G", 25);
+
+System.out.println(person1.getName());
+System.out.println(person1.getAge());
+```
+
+If we just tried to write `person1.age`, we would get an error saying "The field `person.age` is not visible", alluding to the fact that the variable is `private`. The accessor method gets around this, and produces the expected result:
+
+```
+Mr. G
+25
+```
+
+
 ---
 
 ## Return by Value
