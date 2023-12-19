@@ -2,7 +2,7 @@
 
 # Accessor Methods
 
-This section pauses our work on classes to introduce documentation in code with comments. This is a skill that will benefit the readability of your code moving forward, becoming much more important with creating classes.
+This section picks our work on classes back up by discussing the intricacies of getting access to data using accessor methods.
 
 This section covers the following material:
 
