@@ -61,7 +61,7 @@ Mr. G
 
 ## Return by Value
 
-An important minute detail about the `return` keyword is how it communicates information. Java methods follow a rule known as **`return` by value**, so when you use the keyword `return`, it specifically makes a copy of the information, and sends that to the user, meaning they never actually have access to the memory location of the thing being returned.
+An important minute detail about the `return` keyword is how it communicates information. Java methods follow a rule known as **`return` by value**, so when you use the keyword `return`, it specifically makes a copy of the information, and sends that to the user. For primitive types, this is the raw value, whereas for objects, this would be the memory location. Just like **pass by value**, the memory location is only problematic for mutable objects like the `Person` object, but isn't an issue for immutable objects like `String` objects.
 
 ---
 
